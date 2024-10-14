@@ -40,8 +40,8 @@ prompt = ChatPromptTemplate.from_template(
 def connect_to_database():
     return pymysql.connect(
         host="localhost",
-        user="your_username",  # Replace with your MySQL username
-        password="your_password",  # Replace with your MySQL password
+        user="root",  
+        password="agam2003",  
         database="document_db"
     )
 
